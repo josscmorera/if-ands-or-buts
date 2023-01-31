@@ -1,7 +1,7 @@
 const prompt = require('prompt-sync')();
 
 console.log('Player 1: Choose "rock", "paper", or "scissors": ');
-const p1 = prompt();
+const p1 = prompt('> ');
 
 if ( p1 === "rock") {
 } else if ( p1 === "paper") {
@@ -14,7 +14,7 @@ if ( p1 === "rock") {
 console.log();
 
 console.log('Player 2: Choose "rock", "paper", or "scissors": ');
-const p2 = prompt();
+const p2 = prompt('> ');
 
 if ( p2 === "rock") {
 } else if ( p2 === "paper") {

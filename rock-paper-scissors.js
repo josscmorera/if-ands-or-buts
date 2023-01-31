@@ -3,18 +3,28 @@ const prompt = require('prompt-sync')();
 console.log('Player 1: Choose "rock", "paper", or "scissors": ');
 const p1 = prompt();
 
-if (!["rock", "paper", "scissors"].includes(p1)) {
+if ( p1 === "rock") {
+} else if ( p1 === "paper") {
+} else if ( p1 === "scissors") {
+} else {
   console.log("Error 404 - Please try again");
   return;
 }
+
+console.log();
 
 console.log('Player 2: Choose "rock", "paper", or "scissors": ');
 const p2 = prompt();
 
-if (!["rock", "paper", "scissors"].includes(p2)) {
+if ( p2 === "rock") {
+} else if ( p2 === "paper") {
+} else if ( p2 === "scissors") {
+} else {
   console.log("Error 404 - Please try again");
   return;
 }
+
+console.log();
 
 if (p1 === p2) {
   console.log("DRAW!!!");
